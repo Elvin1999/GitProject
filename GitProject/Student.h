@@ -3,9 +3,12 @@
 using namespace std;
 
 class Student {
-public:
 	string name;
+public:
 	void show() {
 		cout << "Name : " << name << endl;
+	}
+	string getName() const {
+		return name;
 	}
 };
